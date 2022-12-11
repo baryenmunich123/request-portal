@@ -4,7 +4,7 @@ import Logo from "./assets/Logo.png";
 import {FaAngleDown} from 'react-icons/fa';
 function Header() {
     return (
-        <div className="header-container">
+        <header className="header-container">
             <div className="header-name-container">
                 <img src={Logo} alt="Logo" className="header-logo" />
                 <h1 className="header-title">Request's Portal</h1>
@@ -15,7 +15,7 @@ function Header() {
                     <FaAngleDown className="header-dropdown-btn"/>
                 </i>
             </div>
-        </div>
+        </header>
     );
 }
 

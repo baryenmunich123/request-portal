@@ -1,7 +1,9 @@
 import React from "react";
 import Header from "./Header";
-import "./HomePage.css";
 import Catalogue from "./Catalogue/Catalogue";
+import Sidebar from "./Sidebar/Sidebar";
+import Footer from "./Footer/Footer";
+import "./HomePage.css";
 import XNSV from "./assets/xnsv.png"
 import MGHP from "./assets/mghp.png"
 import BHYT from "./assets/bhyt.png"
@@ -58,6 +60,7 @@ function HomePage() {
   return (
     <div>
       <Header />
+      <Sidebar />
       <div className="homepage-container">
         <div className="homepage-info">
           <h1 className="homepage-name">Services</h1>
@@ -79,6 +82,7 @@ function HomePage() {
           ))}
         </div>
       </div>
+      <Footer/>
     </div>
   );
 }
