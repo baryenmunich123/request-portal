@@ -1,10 +1,11 @@
 import './App.css'
 import HomePage from './HomePage'
+import RequestList from './RequestList'
 function App() {
 
   return (
     <div className="App">
-      <HomePage />
+      <RequestList />
     </div>
   )
 }
