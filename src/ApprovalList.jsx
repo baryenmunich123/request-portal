@@ -31,14 +31,14 @@ const columns = [
         align: 'center',
     },
     {
-        id: 'note',
-        label: 'Note',
+        id: 'requestor',
+        label: 'Requestor',
         minWidth: 170,
         align: 'center',
     },
     {
-        id: 'pdfFile',
-        label: 'PDF File',
+        id: 'action',
+        label: 'Action',
         minWidth: 170,
         align: 'center',
     }
@@ -50,94 +50,99 @@ const rows = [
         requestName: 'Xác nhận hoãn nghĩa vụ quân sự',
         status: 'Waiting',
         type: 'PDF',
-        note: 'NA',
-        pdfFile: 'https://iuoss.com/wp-content/uploads/2022/10/Ho-va-ten-MSSV-XNQS.docx'
+        requestor: 'ITITIU19040',
+        action: ''
     },
     {
         id: 1,
         requestName: 'Xác nhận hoãn nghĩa vụ quân sự',
         status: 'Waiting',
-        type: 'Paper',
-        note: 'NA',
-        pdfFile: ''
+        type: 'PDF',
+        requestor: 'ITITIU19040',
+        action: ''
+    },
+    {
+        id: 1,
+        requestName: 'Xác nhận hoãn nghĩa vụ quân sự',
+        status: 'Waiting',
+        type: 'PDF',
+        requestor: 'ITITIU19040',
+        action: ''
+    },
+    {
+        id: 1,
+        requestName: 'Xác nhận hoãn nghĩa vụ quân sự',
+        status: 'Waiting',
+        type: 'PDF',
+        requestor: 'ITITIU19040',
+        action: ''
+    },
+    {
+        id: 1,
+        requestName: 'Xác nhận hoãn nghĩa vụ quân sự',
+        status: 'Waiting',
+        type: 'PDF',
+        requestor: 'ITITIU19040',
+        action: ''
+    },
+    {
+        id: 1,
+        requestName: 'Xác nhận hoãn nghĩa vụ quân sự',
+        status: 'Waiting',
+        type: 'PDF',
+        requestor: 'ITITIU19040',
+        action: ''
+    },
+    {
+        id: 1,
+        requestName: 'Xác nhận hoãn nghĩa vụ quân sự',
+        status: 'Waiting',
+        type: 'PDF',
+        requestor: 'ITITIU19040',
+        action: ''
+    },
+    {
+        id: 1,
+        requestName: 'Xác nhận hoãn nghĩa vụ quân sự',
+        status: 'Waiting',
+        type: 'PDF',
+        requestor: 'ITITIU19040',
+        action: ''
     },{
         id: 1,
         requestName: 'Xác nhận hoãn nghĩa vụ quân sự',
         status: 'Waiting',
         type: 'PDF',
-        note: 'NA',
-        pdfFile: 'https://iuoss.com/wp-content/uploads/2022/10/Ho-va-ten-MSSV-XNQS.docx'
-    },{
-        id: 1,
-        requestName: 'Xác nhận hoãn nghĩa vụ quân sự',
-        status: 'Waiting',
-        type: 'Paper',
-        note: 'NA',
-        pdfFile: ''
-    },{
+        requestor: 'ITITIU19040',
+        action: ''
+    },
+    {
         id: 1,
         requestName: 'Xác nhận hoãn nghĩa vụ quân sự',
         status: 'Waiting',
         type: 'PDF',
-        note: 'NA',
-        pdfFile: 'https://iuoss.com/wp-content/uploads/2022/10/Ho-va-ten-MSSV-XNQS.docx'
-    },{
-        id: 1,
-        requestName: 'Xác nhận hoãn nghĩa vụ quân sự',
-        status: 'Waiting',
-        type: 'Paper',
-        note: 'NA',
-        pdfFile: ''
+        requestor: 'ITITIU19040',
+        action: ''
     },
     {
         id: 1,
         requestName: 'Xác nhận hoãn nghĩa vụ quân sự',
         status: 'Waiting',
-        type: 'Paper',
-        note: 'NA',
-        pdfFile: ''
-    },
-    {
-        id: 1,
-        requestName: 'Xác nhận hoãn nghĩa vụ quân sự',
-        status: 'Waiting',
-        type: 'Paper',
-        note: 'NA',
-        pdfFile: ''
-    },
-    {
-        id: 1,
-        requestName: 'Xác nhận hoãn nghĩa vụ quân sự',
-        status: 'Waiting',
-        type: 'Paper',
-        note: 'NA',
-        pdfFile: ''
-    },
-    {
-        id: 1,
-        requestName: 'Xác nhận hoãn nghĩa vụ quân sự',
-        status: 'Waiting',
-        type: 'Paper',
-        note: 'NA',
-        pdfFile: ''
-    },
-    {
-        id: 1,
-        requestName: 'Xác nhận hoãn nghĩa vụ quân sự',
-        status: 'Waiting',
-        type: 'Paper',
-        note: 'NA',
-        pdfFile: ''
-    },
+        type: 'PDF',
+        requestor: 'ITITIU19040',
+        action: ''
+    }
 ];
-function RequestList() {
+
+function ApprovalList() {
     return (
-        <>
+        <div>
             <Header />
             <Sidebar />
             <TableList rows = {rows} columns = {columns}/>
             <Footer />
-        </>
+        </div>
     );
 }
-export default RequestList
+
+export default ApprovalList
