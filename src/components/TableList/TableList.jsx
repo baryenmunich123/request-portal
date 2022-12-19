@@ -9,7 +9,7 @@ import TablePagination from '@mui/material/TablePagination';
 import TableRow from '@mui/material/TableRow';
 import Button from '@mui/material/Button';
 
-function TableList({columns, rows}) {
+function TableList({columns, rows,name}) {
     const [page, setPage] = React.useState(0);
     const [rowsPerPage, setRowsPerPage] = React.useState(10);
 
@@ -33,7 +33,7 @@ function TableList({columns, rows}) {
 
   return (
     <Paper sx={{ width: '1660px', overflow: 'hidden', margin: '68px 260px 0' }}>
-            <h1 style={{padding: '20px 0px 0 20px'}}>Approval's List</h1>
+            <h1 style={{padding: '20px 0px 0 20px'}}>{name}</h1>
                 <TableContainer sx={{ minHeight: 550 ,maxHeight: 550, marginTop: 2 }}>
                     <Table stickyHeader aria-label="sticky table">
                         <TableHead>

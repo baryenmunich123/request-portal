@@ -135,7 +135,7 @@ function RequestList() {
         <>
             <Header />
             <Sidebar />
-            <TableList rows = {rows} columns = {columns}/>
+            <TableList rows = {rows} columns = {columns} name = 'Request List'/>
             <Footer />
         </>
     );
